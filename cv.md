@@ -6,3 +6,5 @@
 4. Skills: HTML, CSS, Basic JS, Basic C++.
 5. Code: `fuction(9);`
 6. Work experience:
+7. Education: **«JavaScript/Front-end»** by RSSchool.
+8. English: Intermediate(self-education).
