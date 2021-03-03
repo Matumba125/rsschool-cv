@@ -3,7 +3,8 @@
 body {
   margin: 0;
   font-family: "Josefin Sans";
-  background-image: url("./img/bodybg.jpg") no-repeat;
+  background-image: url("./img/bodybg.jpg");
+  background-size: 100%;
   font-size: 20px;
   line-height: 1.8em;
 }
