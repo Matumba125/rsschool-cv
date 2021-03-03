@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 body {
   margin: 0;
-  font-family: "Raleway";
-  font-size: 16px;
+  font-family: "Josefin Sans";
+  background-image: url("./img/bodybg.jpg") no-repeat;
+  background-size: 100%;
+  font-size: 20px;
   line-height: 1.8em;
 }
 
@@ -47,7 +49,7 @@ header section {
 
 header img {
   border-radius: 50%;
-  max-width: 150px;
+  max-width: 200px;
 }
 
 h1 {
@@ -72,8 +74,9 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-.fab {
-  border: 1px solid white;
+.fab,
+.far {
+  border: 1px solid #d80819;
   border-radius: 50%;
   font-size: 1.5em;
   width: 1.5em;
@@ -84,22 +87,11 @@ main section:not(:last-child) {
 }
 
 a .fab {
-  color: white;
-}
-
-.far {
-  border: 1px solid white;
-  border-radius: 50%;
-  font-size: 1.5em;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  margin: 5px;
-  text-align: center;
+  color: #d80819;
 }
 
 a .far {
-  color: white;
+  color: #d80819;
 }
 
 .course,
@@ -133,37 +125,32 @@ a .far {
   max-width: 50%;
 }
 
-.skills .column ul,
-ul.job-description {
+.skills .column ul {
   list-style-type: none;
 }
 
 .skills .column ul > li:before {
-  content: "►";
+  content: "❯";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #d80819;
 }
 
 .schoool,
-.job-title {
+.job-title,
+.code-title {
   text-transform: capitalize;
 }
 
 .schoool span,
-.job-title span {
+.job-title span,
+.code-title span {
   color: #889499;
   text-decoration: underline;
 }
 
-ul.job-description li:before {
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
-}
-
 footer {
   padding: 1em 1.5em;
-  background: #a7b8bf;
+  background: #d80819;
   color: white;
   text-align: right;
 }
