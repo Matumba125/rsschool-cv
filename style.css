@@ -3,8 +3,6 @@
 body {
   margin: 0;
   font-family: "Josefin Sans";
-  background-image: url("./img/bodybg.jpg") no-repeat;
-  background-size: 100%;
   font-size: 20px;
   line-height: 1.8em;
 }
@@ -42,9 +40,10 @@ header {
   color: white;
 }
 
-header section {
+.header-content {
   margin: 0 auto;
   max-width: 640px;
+  padding: 1em;
 }
 
 header img {
